@@ -76,27 +76,41 @@ body {
 </head>
 <body>
 
-<div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown 
+ <div class="sidenav">
+  <a href="#about">Home</a>
+  <a href="#services">Using the System</a>
+  <button class="dropdown-btn">Transmitter
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Design</a>
+    <a href="#">How to Build</a>
+    <a href="#">Code</a>
   </div>
-  <a href="#contact">Search</a>
-</div>
+  <button class="dropdown-btn">Receiever Tag
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Design</a>
+    <a href="#">How to Build</a>
+    <a href="#">Code</a>
+  </div>
+  <button class="dropdown-btn">Inference
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Python Module</a>
+    <a href="#">Angle Inference</a>
+    <a href="#">Path Reconstruction</a>
+  </div>
+</div> 
 
 <div class="main">
-  <h2>Sidebar Dropdown</h2>
-  <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
-  <p>This sidebar is of full height (100%) and always shown.</p>
-  <p>Some random text..</p>
+<h2>BLE Bee Tracking System Documentation</h2>
+  <p>The BLE Bee Tracking System is a solution for landscape scale tracking of flying central place foragers. The tracked subject is tagged with a powered reciever, 
+    and across the landscape rotating high gain BLE transmitters are deployed to transmit data to the reciever tag. The tag is retrived from the subject
+    and the data recieved is read from the tag. To keep the tag's profile and weight as low as possible, very little data is recieved by the tag. This necessitates 
+    probabilistic modelling of the reciever's movement to reconstruct its path across the landscape.</p>
 </div>
 
 <script>
