@@ -4,19 +4,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!-- The sidebar -->
-<div class="sidebar">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">Using the System</a>
-  <a href="#contact">Transmitter</a>
-  <a href="#about">Reciever Tag</a>
-</div>
-
+ <div class="sidenav">
+  <a href="#about">Home</a>
+  <a href="#services">Using the System</a>
+  <button class="dropdown-btn">Transmitter
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Design</a>
+    <a href="#">How to Build</a>
+    <a href="#">Code</a>
+  </div>
+  <button class="dropdown-btn">Receiever Tag
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Design</a>
+    <a href="#">How to Build</a>
+    <a href="#">Code</a>
+  </div>
+  <button class="dropdown-btn">Inference
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Python Module</a>
+    <a href="#">Angle Inference</a>
+    <a href="#">Path Reconstruction</a>
+  </div>
+</div> 
 <!-- Page content -->
 <div class="content">
   <h1>BLE Bee Tracking System Documentation</h1>
   <p>The BLE Bee Tracking System is a solution for landscape scale tracking of flying central place foragers. The tracked subject is tagged with a powered reciever, 
-    and across the landscape rotating high gain BLE transmitters are deployed to transmit data to the reciever tag. The tag is retrived from the tracked individual
+    and across the landscape rotating high gain BLE transmitters are deployed to transmit data to the reciever tag. The tag is retrived from the subject
     and the data recieved is read from the tag. To keep the tag's profile and weight as low as possible, very little data is recieved by the tag. This necessitates 
     probabilistic modelling of the reciever's movement to reconstruct its path across the landscape.</p>
 </div> 
